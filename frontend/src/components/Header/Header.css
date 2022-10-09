@@ -1,0 +1,22 @@
+
+.webLogo{
+  width: 200px;
+  height: 18px;}
+
+.employee{
+    font-size: 13px;
+    font-family: serif;
+    color: white;
+}
+
+@media screen and (max-width : 991px)
+{
+   div.navitems{
+background-color: black;
+width:50%
+  }
+}
+
+.color-nav{
+  background-color: black;
+}

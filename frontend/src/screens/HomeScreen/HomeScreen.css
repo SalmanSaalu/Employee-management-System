@@ -1,0 +1,346 @@
+#videoDiv {width: 100%; height: auto; position: relative;}
+#video1 { margin: auto; display: block;width:100%}
+#videoMessage { position: absolute;
+     top: 0; left: 0;
+/* display: flex; */
+/* flex-direction: column;  */
+/* justify-content: center;
+align-items: center;  */
+width: 100%;
+}
+
+.nav-link {
+    color: white !important;
+  }
+
+  @media screen and (max-width : 991px)
+  {
+     div.navitems{
+background-color: black;
+width:50%
+    }
+  }
+
+.hrm{
+    color: white;
+}
+
+  @media screen and (max-width : 709px)
+  {
+     p.hrm{
+color: rgb(255, 255, 255);
+    }
+  }
+
+#heading{
+    position: absolute;
+    top: 0; left: 0;
+    margin-top: 6rem;
+    background-color: black;
+    opacity: 59%;
+    padding-left: 6%;
+}
+
+#colorchange{
+    color: #c6c3bf;
+}
+
+/* #colorchange h1{ animation: change 
+    20s forwards infinite; animation-delay: 2s;} 
+    
+    @keyframes change 
+    {
+    0% { color:#fbfbfb }
+    25% { color: orange; }
+    50% { color: yellow; }
+    75% { color: #98ff00; }
+    100% { color:  rgb(23, 192, 214) }
+    } */
+
+
+#hr{
+    height: 2px;
+    background: #ffa808;
+}
+
+#heading2{
+    position: absolute;
+    top: 0; left: 0;
+    background-color: white;
+    height: auto;
+    width: 100%;
+    margin-top: 34rem;
+}
+
+.connectbtn:hover{
+    background-color: red;
+    color: white;
+}
+
+.connectbtn{
+    border-radius: 20px;
+    width: 80px;
+}
+
+.getintouch{
+    font-family: 'Oswald';
+    color: #de817b;
+    letter-spacing: 2px;
+}
+
+.jobdiv{
+    margin-top: 4%;
+}
+
+
+.image{
+    box-shadow: -1px 0px 5px 0px;
+    border-radius: 100px 2px 59px 2px;
+    transition: 0.5s all ease-in-out
+}
+
+.image:hover{
+    transform: scale(1.1);
+}
+
+.heading{
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: Righteous
+}
+
+.paragraphdata{
+    width: 87%;
+    font-size: 15px;
+    font-family: system-ui;
+    background-color: #ffffffc7;
+    margin-left: 6%;
+    opacity: 69%;
+    text-align: start;
+    color: black;
+    padding-top: 17px;
+    border-radius: 41px 0px 45px 0px;
+    padding-bottom: 24px;
+    box-shadow: -1px 2px 2px 2px;
+    padding-left: 10px;
+}
+
+.image2{
+    width: 90%;
+    margin-top: 82px;
+    padding-left: 6%;
+}
+
+.paragraphdata2{
+    margin-top: 82px;
+    font-family: Righteous;
+    font-size: 29px;
+}
+
+.jobsforyou{
+    
+    width: 94%;
+    padding-left: 9%;
+
+}
+
+.facility{
+    width: 83%;
+    margin-left: 9%;
+}
+
+.icons{
+    text-align: center;
+    padding-top: 37px;
+}
+
+.iconDesc{
+    font-size: 22px;
+    font-family: 'Righteous';
+}
+
+.iconDesc2{
+    font-size: 16px;
+    font-family: system-ui;
+    color: grey;
+    text-align: start;
+}
+
+.statisticalInfo{
+    width: 90%;
+    margin-left: 6%;
+    height: auto;
+}
+
+.bg-first{
+    background-color: #de4600
+  }
+
+.bg-second{
+    background-color: #00c1de;
+}
+
+.bg-third{
+    background-color: #decb00;
+}
+
+.bg-four{
+    background-color: #55de00;
+}
+
+.bg-five{
+    background-color: #de0040;
+}
+
+.progress{
+    height: 8px;
+    margin-top: -8px;
+    margin-bottom: 16px;
+    margin-left: 0%;
+}
+
+.serviceHeaders{
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: white;
+    font-family: monospace;
+}
+
+.statisticHeading{
+    padding-top: 5rem;
+    padding-bottom: 37px;
+    color: white;
+    font-family: inherit;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.readmoreBtn{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+.logo{
+    /* background-color: #eeeeee; */
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+}
+
+.statisticalgrowth{
+    border: 5px solid #ffffff;
+    padding: 22px;
+}
+
+.logo2{
+    font-size: 50px;
+}
+
+.logo2Desc{
+    padding-top: 15px;
+    font-size: 43px;
+}
+
+.data{
+    color: white;
+}
+
+.colorsetup{
+    background-color: #f2efef94;
+    text-align: center;
+    padding: 20px;
+}
+
+.data2{
+    color: black;
+}
+
+.marketProduct{
+    padding-top: 10px;
+}
+
+.marketProductLogo{
+    transition: 0.5s all ease-in-out
+}
+
+.marketProductLogo:hover{
+    transform: scale(0.8);
+}
+
+.marketProduct2{
+    font-family: inherit;
+    font-size: 22px;
+    padding-top: 10px;
+    height: auto;
+}
+
+.colorsetup2{
+    text-align: center;
+    padding: 20px;
+}
+
+.statisticHeading2{
+    padding-top: 5rem;
+    font-family: inherit;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.hr{
+    background-color: orange;
+    height: 3px;
+    border: orange;
+    margin-top: 44px;
+}
+
+.statisticalInfo2{
+    width: 90%;
+    margin-left: 6%;
+    height: auto;
+    color: white;
+}
+
+.otherDetails{
+    font-family: system-ui;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 31px;
+}
+
+.lastdiv{
+    height: auto;
+    border-top: 1px;
+    border-left: 0px;
+    border-right:0px;
+    border-bottom: 0px;
+    border-style: dashed;
+    color: white;
+    padding-top: 25px;
+}
+
+.webLogo{
+    width: 200px;
+    height: 18px;}
+
+.employee{
+    font-size: 13px;
+    font-family: serif;
+}
+
+.hr2{
+    height: 2px;
+    background-color: white;
+}
+
+.connectWithUs{
+    margin-top: -13px;
+    text-align: center;
+}
+
+.items{
+    color: white;
+    text-decoration: none;
+}

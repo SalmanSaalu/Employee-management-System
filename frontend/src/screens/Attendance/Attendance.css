@@ -1,0 +1,135 @@
+.calender{
+    margin-left: 15%;
+    width: 72%;
+}
+
+.attendanceMarked{
+    font-family: unset;
+    /* padding-top: 14px; */
+    color: #08681c;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    display: flex;
+}
+
+.leave{
+    text-align: center;
+    font-family: serif;
+    padding-top: 14px;
+    color: red;
+}
+
+.attendBtn{
+    width: 62%;
+    margin-left: 20%;
+    border-radius: 13px;
+    padding: 3px;
+    font-family: serif;
+    border: none;
+    margin-bottom: 12px;
+    color: white;
+    background-image: linear-gradient(to right, #65a46b , #33ff00);
+    cursor: pointer;
+}
+
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: green;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+  }
+  
+  .checkmark2 {
+    width: 56px;
+    height: 31px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: green;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px #7ac142;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+  }
+  
+  .checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+  }
+  
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes scale {
+    0%, 100% {
+      transform: none;
+    }
+    50% {
+      transform: scale3d(1.1, 1.1, 1);
+    }
+  }
+  @keyframes fill {
+    100% {
+      box-shadow: inset 0px 0px 0px 30px #fff;
+    }
+  }
+  
+  .Date{
+    font-size: 32px;
+    margin-top: 12px;
+    padding-left: 15%;
+    font-family: -webkit-body;
+  }
+
+  .leaveHeight{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 23rem;
+  }
+  .leaveHeight::-webkit-scrollbar {
+    display: none;
+}
+
+.attendDetail{
+    padding: 5px;
+    color: white;
+    background-color: #12702c;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    width:100%
+}
+
+.leaveDetail{
+    padding: 5px;
+    color: white;
+    background-color: red;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.boxshadow{
+    box-shadow: 0px 1px 11px 5px grey;
+    padding-top: 20px;
+}
+
+.boxshadowouter{
+    width: 38%;
+    margin-left: 2%;
+}
+
+@media screen and (max-width : 991px)
+{
+   div.boxshadowouter{
+
+width:97%
+  }
+}
